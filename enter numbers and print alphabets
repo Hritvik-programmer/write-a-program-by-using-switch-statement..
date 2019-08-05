@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main()
+{
+ int a;
+ printf("Enter a number:");
+ scanf("%d",&a);
+ 
+  switch(a)
+  {
+  case 1:  printf("a");
+           break;
+  case 2:  printf("b");
+           break;
+  case 3:  printf("c");
+           break;
+  case 4:  printf("d");
+           break;
+  case 5:  printf("e");
+           break;
+  case 6:  printf("f");
+           break;
+  case 7:  printf("g");
+           break;
+  case 8:  printf("h");
+           break;
+  case 9:  printf("i");
+           break;
+  case 10:  printf("j");
+           break;
+                                                         
+  default: printf("Hii");
+  }
+  }
